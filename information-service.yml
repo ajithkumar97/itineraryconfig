@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: information-service
+  management:
+    security:
+      enabled: false
+      
+#Eureka Client
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone:  http://registryservice:8761/eureka
+    register-with-eureka: true
+   
+ribbon:
+  ConnectTimeout: 30000
+  ReadTimeout: 990000
+  maxAutoRetries: 1
+  MaxAutoRetriesNextServer: 2
+  eureka:
+    enabled: true    
+
+
+itinerary: 
+  default:
+    city:
+      source: cochin  
+      
+#Server
+server:
+  port: 8085   
+  
+   
+  
