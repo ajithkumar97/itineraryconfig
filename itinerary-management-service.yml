@@ -43,7 +43,7 @@ ribbon:
 
     
 roleproperties:
-  adminUser: admin@Password@1
+  adminUser: admin
   adminUserPassword: admin@Password@1
   traveluser: traveluser
   traveluserPassword: traveluser@Password@1
