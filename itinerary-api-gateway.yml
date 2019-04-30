@@ -40,7 +40,7 @@ zuul:
      sensitiveHeaders:
    information-service:
      path: /api/v1/information/**
-     service-id: Parking-Transaction-History
+     service-id: INFORMATION-SERVICE
      strip-prefix: false  
      sensitiveHeaders:
 
